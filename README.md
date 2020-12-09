@@ -1,5 +1,11 @@
-# team6
-### Instructions
+# Hikerrank Website
+a hiker rank application that allows users to register, login, lookup trails information on the map, invite friends for hiking events, and join hiking events shown on the map. 
+
+# Technologies
+Utilized Django backend framework for handling different requests, MySQL as database for saving related data, React as frontend framework for user interactions, Django Rest Framework for designing API and connecting backend and frontend, Mapbox API for displaying map information, and finally AWS EC2 as deploying strategy.
+
+
+### Some Instructions while developing
 After cloned or pulled the repository, follow the instructions below:
 
 cd reactapp
