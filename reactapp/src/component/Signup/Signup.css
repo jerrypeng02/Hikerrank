@@ -1,0 +1,98 @@
+.page-container{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../pictures/login_background.jpg');
+    mix-blend-mode: darken;
+    width: 100%;
+    height: 100%;
+    background-size:100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+
+}
+
+.logo-container{
+    margin-top: 0;
+}
+
+.hikerrank-title{
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 45px;
+    color: #FFFEFE;
+
+}
+
+.signup-box-container{
+    text-align: center;
+}
+
+.signup-box{
+    margin: auto;
+    width: 427px;
+    height: 447px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color: #FFFEFE;
+
+}
+
+.signup-form{
+    color: white;
+    padding-top: 5px;
+}
+
+
+.signup-input { 
+    width: 270px; 
+    margin-bottom: 10px; 
+    background: rgb(0, 0, 0);
+    opacity: 0.9;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    box-shadow: inset 0 0px 40px rgba(17, 17, 17, 0.2), 0 1px 0px rgba(255, 255, 255, 0.541);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+    line-height: 2;
+}
+
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+.signup-btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #023217;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    padding: 5px;
+    width: 293px; 
+}   
+
+.signup-btn:hover{
+    background: #148646;
+}
+
+.signup-error{
+    padding-top: 20px;
+    color: red;
+    
+}

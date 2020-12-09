@@ -1,0 +1,41 @@
+.album-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    padding-top: 15px;
+}
+
+.album-box{
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: 2%;
+    background-color: #d2e6d2;
+    filter: drop-shadow(5px 3px 5px #BDBDBD);
+    border-radius: 4ch;
+    width: 85%;
+    height: 450px;
+}
+
+img.react-images__view-image.css-1cm5myo.css-1ycyyax{
+    height: 300px;
+    width: auto;
+    border-radius: 1ch;
+
+}
+
+span.react-images__footer__count.css-w6xjhe.css-1ycyyax{
+    text-align: center;
+    margin-right: 15%;
+    color: black;
+}
+
+#upload-photo-btn{
+    margin-bottom: 20px;
+}
+
+span.react-images__footer__caption.css-1ycyyax.css-1ycyyax{
+    margin-left: 20%;
+    color: black;
+    font-size: small;
+}

@@ -1,0 +1,91 @@
+.event-left{
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+    height: 50%;
+}
+
+.event-right{
+    padding-top: 10px;
+    float: right;
+    width: 30%;
+    height: 50%;
+}
+
+.event-middle{
+    float: left;
+    height: 50%;
+    width: 40%;
+    padding-top: 10px;
+}
+
+#username{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+p#initiator{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.event-description{
+    background-color: #d2e6d2;
+    filter: drop-shadow(5px 3px 5px #BDBDBD);
+    height: 200px;
+}
+
+#event-description{
+    
+    line-height: 3;
+}
+
+.description-box{
+    padding-top: 50px;
+}
+
+.apply-option{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.addfav-option{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+h3.title a{
+    color: white;
+    text-decoration: none;
+}
+
+div.event-left a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div.event-detail p.trail-location-description {
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.event-page-content{
+    height: 670px;
+}
+
+h3#join-group-chat-link{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3#request-join-link{
+    font-size: 18px;
+    font-weight: bold;
+}

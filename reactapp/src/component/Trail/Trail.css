@@ -1,0 +1,442 @@
+.container{
+  position:absolute;
+  width: 100%;
+  height:100%;
+  padding: 0px;
+  margin:0px;
+  /* display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 1fr 1fr 1fr 1fr 1fr 1fr 70px; */
+}
+
+.header-container {
+  /* grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:1; */
+  width: 100%;
+  height: 70px;
+  background: #000000;
+  text-align: left;
+}
+
+.pic-slogan-container{
+  /* grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:2;
+  grid-row-end:3; */
+  width: 100%;
+  height:420px;
+}
+
+.Trail-Info-container{
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:3;
+  grid-row-end:4; */
+  display:inline-block;
+  width: 28%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  /* margin-left: 130px;
+  margin-right: 8%;
+  margin-top: 50px;
+  margin-bottom: 100px; */
+  vertical-align:top;
+  text-indent: 1px;
+  min-width: 300px;
+  color: #000000;
+}
+
+.section-header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 10px;
+  
+  color: #000000;
+}
+.bg-image{
+  filter: brightness(50%); 
+  height: 100%;
+}
+.trail-map-container{
+  /* grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:3;
+  grid-row-end:4; */
+  display:inline-block;
+  width: 50%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  border-color: black;
+  /* margin-left:5%; */
+  margin-right:5%;
+  min-width: 500px;
+}
+.trail-map-container > img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.trail-info-and-map-section{
+  margin-top: 40px;
+  width: 100%;
+}
+.checkin-container{
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:4;
+  grid-row-end:5; */
+  float:left;
+  width: 33%;
+}
+
+.no-checkin-msg{
+  margin-left:80px;
+  margin-right:80px;
+}
+
+.no-review-msg{
+  margin-left:80px;
+  text-align: center;
+}
+
+.user-checkin{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+}
+
+.button{
+  /* background: #219653;
+  height: 30px;
+  width: 160px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #FFFEFE;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border: none;
+    background-color: #219653;
+    color: white;
+    border-radius: 0.3ch;
+    width: 110px;
+    height: 30px;
+}
+
+.no-review-msg{
+  margin-left: 4%;
+}
+
+.add-review-button{
+  width: 150px;
+}
+
+.review-container{
+  margin-right: 80px;
+  text-align: left;
+}
+
+.review-section{
+  /* grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:4;
+  grid-row-end:7; */
+  float:right;
+  width: 67%;
+  height:100%;
+  /* display: grid;
+  grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+.review-section-header{
+  /* grid-row-start:1;
+  grid-row-end:2; */
+  margin-bottom: 20px;
+}
+.review-container{
+  /* grid-row-start:2;
+  grid-row-end:7; */
+  height: 86%;
+  overflow:scroll;
+}
+
+.add-new-review{
+  /* grid-row-start:7;
+  grid-row-end:9; */
+}
+
+.review{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.reviewer-profile-pic{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:1;
+  grid-row-end:3;
+  /* max-width:100%; */
+  height:60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.username{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end:2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+/* identical to box height */
+
+  text-align: left;
+  margin-left: 10px;
+}
+
+.post-time{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:2;
+  grid-row-end:3;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  margin-left: 10px;
+
+  color: #000000;
+}
+.review-rating{
+  grid-column-start: 4;
+  grid-column-end: 12;
+  grid-row-start:2;
+  grid-row-end:3;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #219653;
+}
+.review-text{
+  grid-column-start: 2;
+  grid-column-end: 15;
+  grid-row-start:3;
+  grid-row-end:6;
+  background: rgba(196, 196, 196, 0.5);;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 10px;
+  /* identical to box height, or 222% */
+
+  text-align: left;
+  padding: 10px;
+
+  color: #000000;
+}
+
+.add-new-review{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.add-review-profile-pic{
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:1;
+  grid-row-end:3; */
+  display: inline-block;
+  margin-right:10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.add-review-text{
+  display: inline-block;
+  vertical-align: top;
+  padding-top:10px;
+  /* grid-column-start: 2;
+  grid-column-end: 15;
+  grid-row-start:1;
+  grid-row-end:3; */
+  background: rgba(196, 196, 196, 0.5);;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* identical to box height, or 222% */
+  text-align: left;
+  color: #000000;
+  width: 500px;
+}
+
+.add-review-button{
+  /* grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start:3;
+  grid-row-end:4; */
+}
+
+.checkin-and-review-section{
+  /* grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:4;
+  grid-row-end:7; */
+  min-height: 200px;
+  max-height: 800px;
+}
+
+.events-container{
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  min-height:200px;
+  clear:both;
+}
+
+.event{
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, V;
+}
+
+.calender-pic{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+.event-date-name{
+  grid-column-start: 3;
+  grid-column-end: 15;
+  grid-row-start:1;
+  grid-row-end:2;
+  text-align: left;
+}
+
+.event-orgnizer{
+  grid-column-start: 3;
+  grid-column-end: 15;
+  grid-row-start:2;
+  grid-row-end:3;
+  text-align: left;
+}
+
+.event-participants{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+
+
+
+.join-event-button{
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+.trail-footer-container{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:8;
+  grid-row-end:9;
+}
+
+.rating-label{
+  margin-right: 30px;
+}
+
+.trail-page-icon{
+  margin-left: 5px;
+}
+
+#event-modal{
+    width: 500px;
+    height: 250px;
+    text-align: left;
+    left:50% !important;
+    top: 30%;
+    position: fixed !important;
+}
+
+#edit-apply{
+  width: 80%;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+#ini-event-btn{
+  width: 150px;
+}
+
+#new-event-modal{
+  width: 500px;
+  height: 400px;
+  text-align: left;
+  left:40% !important;
+  bottom: 30%;
+  position: fixed !important;
+}
+
+input#event-name{
+  width: 70%;
+}
+
+input#event-intro{
+  width: 92.1%;
+  height: 70px;
+}
+
+.new-event-input{
+  margin: 5px;
+  line-height: 1.8;
+}
+
+#new-event-btn{
+  margin-top: 10px;
+}
+
+.no-such-trail-msg{
+  margin-top: 300px;
+  margin-bottom: 340px;
+}

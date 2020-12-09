@@ -1,0 +1,31 @@
+.event-calendar-container{
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+span.Cal__Header__date{
+    font-size: 17px;
+}
+
+div.Cal__Header__root{
+    background-color: #065F2C !important;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul.Cal__Weekdays__root{
+    background-color: #219653 !important;
+}
+
+div.Cal__Today__root.Cal__Today__show.Cal__Today__chevronUp{
+    background-color: #bdbdbd !important;
+}
+
+div.Cal__Today__root.Cal__Today__show.Cal__Today__chevronDown{
+    background-color: #bdbdbd !important;
+}
+
+div.Cal__Day__selection{
+    background-color: #219653 !important;
+}

@@ -1,0 +1,138 @@
+.notif-left{
+    /* background: lightblue; */
+    float: left;
+    width: 60%;
+    height: 50%;
+}
+
+.notif-right{
+    float: right;
+    width: 40%;
+    height: 50%;
+}
+
+.notif-title{
+    margin-top: 60px;
+}
+
+.notif-content{
+    margin-top: 30px;
+    height: 500px;
+    width: 95%;
+    margin-left: 120px;
+    overflow: scroll;
+}
+
+.calendar{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar-position{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+#my-event-table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-right: 30px;
+}
+
+table.my-event-box{
+    display: inlin-flex;
+    text-align: center;
+    table-layout: fixed
+}
+
+td.my-event-name{
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 20px;
+    width: 500px;
+    line-height: 2;
+    text-align: left;
+}
+
+td.my-event-time{
+    margin-right: 50px;
+    width: 300px;
+    line-height: 2;
+    text-align: left;
+}
+
+.react-calendar{
+    width: 100% !important;
+}
+
+td.request-event-name{
+    margin-right: 20px;
+    width: 500px;
+    line-height: 2;
+    text-align: left;
+}
+
+td.requester-name{
+    margin-right: 50px;
+    width: 300px;
+    line-height: 2;
+    text-align: left;
+}
+
+#received-request-table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.received-request-content{
+    margin-bottom: 20px;
+}
+
+tr.request-text{
+    background-color: #f2f2f2;
+    line-height: 3;
+    text-align: left;
+}
+
+span.bold-font{
+    font-weight: bold;
+}
+
+button#decline-request-btn{
+    background-color: rgb(238, 185, 87);
+}
+
+button#cancel-request-btn{
+    background-color: rgb(238, 185, 87);
+}
+
+td.my_event_name{
+    width: 500px;
+}
+
+td.my_event_date{
+    width: 250px;
+}
+
+#my-request-table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    line-height: 2;
+}
+
+#cancel-event-modal{
+    width: 500px;
+    height: 130px;
+    text-align: center;
+    left:33% !important;
+    position: fixed !important;
+    top: 200px !important;
+}

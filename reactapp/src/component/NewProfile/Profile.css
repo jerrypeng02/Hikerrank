@@ -1,0 +1,39 @@
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, V
+}
+
+.left{
+    /* background: lightblue; */
+    float: left;
+    width: 40%;
+    height: 50%;
+}
+
+.right{
+    float: right;
+    width: 60%;
+    height: 50%;
+}
+
+
+#username{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.bio-box{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#bio {
+    line-height: 1.6;
+}
+
+.no-such-user-msg{
+    margin-top: 300px;
+    margin-bottom: 340px;
+}

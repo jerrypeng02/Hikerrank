@@ -1,0 +1,80 @@
+.about-heading{
+    margin-top: 35px;
+}
+
+div.project-intro{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    display: inline-flex;
+}
+
+.project-intro p{
+    line-height: 1.5;
+    width: 60%;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.row-left{
+    float: left;
+    padding-right: 8%;
+}
+.row-right{
+    float: left;
+}
+
+.team-intro{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 18%;
+    padding-right: 13%;
+    display: inline-block;
+}
+
+.intro-left{
+    float: left;
+    padding-top: 25px;
+}
+
+
+.intro-right{
+    float: right;
+    width: 230px;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 13px;
+}
+
+.people-name{
+    font-weight: bold;
+    font-size: large;
+}
+
+.people-intro{
+    line-height: 1.5;
+}
+
+.row1{
+    width: 100%;
+}
+
+.row2{
+    width: 100%;
+}
+
+.powered{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: inline-block;
+
+}
+
+.powered img{
+    padding: 5px;
+}
